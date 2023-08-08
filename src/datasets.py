@@ -119,7 +119,7 @@ def find_files(filelist, key):
 class dcase22(td.Dataset):
     def __init__(self, machines: str, key: str, label1 = "section", label2 = "sou/tar", randomframe = None) -> None:
         super().__init__()
-        datapath = "/home/houqijun/dcaseproject/data/DCASE22"
+        datapath = "DCASE_data/feature/DCASE22"
         if machines == "all":
             self.machines = MT_LIST22
         else:
@@ -258,7 +258,7 @@ ATTRI_CODE = {'bearing': {'vel': {'5': 0, '7': 1, '8': 2, '9': 3, '11': 4, '13':
 class dcase23(td.Dataset):
     def __init__(self, machines: str, key: str, label1 = "section", label2 = "sou/tar", randomframe = None) -> None:
         super().__init__()
-        datapath = "DCASE_data/DCASE23"
+        datapath = "DCASE_data/feature/DCASE23"
         if machines == "all":
             self.machines = ['bearing', 'fan', 'gearbox', 'slider', 'ToyCar', 'ToyTrain', 'valve',
                              'bandsaw', 'grinder', 'shaker', 'ToyDrone', 'ToyNscale', 'ToyTank', 'Vacuum']
