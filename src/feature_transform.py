@@ -10,7 +10,7 @@ import re
 from utils import *
 
 d22 = {
-    'datapath': "DCASE_data/origin/DCASE22/home/public/dcase/dcase22",
+    'datapath': "DCASE_data/origin/DCASE22",
     'targetpath': "DCASE_data/feature/DCASE22",
     'dev': ['bearing', 'fan', 'gearbox', 'slider', 'ToyCar', 'ToyTrain', 'valve'],
     'eval': ['bearing', 'fan', 'gearbox', 'slider', 'ToyCar', 'ToyTrain', 'valve']
